@@ -4,7 +4,7 @@ const app = express();
 const MongoClient = require("mongodb").MongoClient;
 const assert = require("assert");
 
-const uri = "mongodb+srv://joshua:kN3w-beg1ninGz@challenge-cluster-712i5.mongodb.net/test?retryWrites=true"; // Password has been removed from string
+const uri = "mongodb+srv://joshua:<password>@challenge-cluster-712i5.mongodb.net/test?retryWrites=true"; // Password has been removed from string
 
 app.get("/customer/:id", (req, res) => {
   // Connect to the database and retrieve customers
