@@ -1,0 +1,16 @@
+{
+  "name": "restful-service",
+  "version": "1.0.0",
+  "description": "A simple CRUD application using data provided in \"customers.json\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joshua Odeyemi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.0",
+    "mongodb": "^3.2.5",
+    "mysql": "^2.17.1"
+  }
+}
